@@ -9,8 +9,9 @@ export const GlobalStyle = createGlobalStyle`
 }`;
 export const Header = styled.header`
   display: flex;
-  width: 70vw;
-  height: 15vh;
+  width: 98.7vw;
+  height: 10vh;
+  background-color:#f1faee;
   margin:0 auto;
   
   @media only screen and (min-width: 360px) and (max-width: 800px) {
@@ -22,7 +23,7 @@ export const Header = styled.header`
   align-items: ;
   display: flex;
   flex-direction: ;
-  width: 70vw;
+  width: 50vw;
   margin: 0 auto;
   height: ;
   margin-top: ;
@@ -42,7 +43,6 @@ export const Ul = styled.ul`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: ;
   list-style: none;
   width: 60vw;
   @media only screen and (min-width: 360px) and (max-width: 800px) {
@@ -54,10 +54,13 @@ export const Ul = styled.ul`
 
 
 export const Link = styled.a`
-  
-    text-decoration: none;
+  text-decoration: none;
   }`;
+
   export const Li = styled.li`
   list-style: none;
   text-decoration: none;
+  font-size:1.5vw;
+  font-family:'Nanum Gótico', sans-serif;
+  color: #52796f;
   `
