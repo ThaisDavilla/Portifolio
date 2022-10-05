@@ -9,8 +9,9 @@ export default function Home() {
   return (
     <S.Body>
       
-      <S.Hone>Thais D'Ávilla</S.Hone>
+     
       <S.ImgProfile src={Photo} alt="Thais D'Ávilla em frente a um lago."/>
+      <S.Hone>Thais D'Ávilla</S.Hone>
       <S.BoxIcons>
         <a href="https://github.com/ThaisDavilla">
           <S.Icons src={GitHub} alt="Ícone do GitHub"/>
