@@ -4,7 +4,6 @@ import * as S from "./Style/HeaderStyle";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Work from "./Components/Work";
-import ODS from "./Components/ODS";
 
 export default function App() {
   return (
@@ -17,13 +16,10 @@ export default function App() {
               <S.Li>Home</S.Li>
             </S.Link>
             <S.Link href="/About">
-            <S.Li>About</S.Li>
+              <S.Li>About</S.Li>
             </S.Link>
             <S.Link href="/Work">
-            <S.Li>Work</S.Li>
-            </S.Link>
-            <S.Link href="/ODS">
-            <S.Li>ODS</S.Li>
+              <S.Li>Work</S.Li>
             </S.Link>
           </S.Ul>
         </S.Nav>
@@ -32,7 +28,6 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Work" element={<Work />} />
-        <Route path="/ODS" element={<ODS />} />
       </Routes>
     </Router>
   )
