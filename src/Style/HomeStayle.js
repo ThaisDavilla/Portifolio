@@ -11,7 +11,7 @@ export const Body = styled.body`
 `
 
 export const Hone = styled.h1`
-  width: 30vw;
+  width: 60vw;
   font-size: 2.5em;
   margin: 0 auto;
   display: flex;
@@ -31,7 +31,7 @@ export const ImgProfile = styled.img`
 export const BoxIcons = styled.div`
   width:15vw;
   height:10vh;
-  margin: 1.3vh auto;
+  margin: 1.6vh auto;
   display: flex;
   justify-content: space-evenly;
   align-itens: flex-center;
@@ -43,7 +43,7 @@ export const BoxIcons = styled.div`
   }
 `
 export const Icons = styled.img`
-width:3vw;
+width:4vw;
 height:4vh;
 @media screen and (min-width: 360px) and (max-width: 800px) {
   width:5vw;

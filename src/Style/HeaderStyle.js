@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
  }`;
 export const Header = styled.header`
   display: flex;
-  width: 100vw;
+  width: 98.7vw;
   height: 8vh;
   background-color:#f1faee;
   margin:0 auto;
