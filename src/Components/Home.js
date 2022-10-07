@@ -11,13 +11,13 @@ export default function Home() {
       <S.ImgProfile src={Photo} alt="Thais D'Ávilla em frente a um lago." />
       <S.Hone>Thais D'Ávilla</S.Hone>
       <S.BoxIcons>
-        <a href="https://github.com/ThaisDavilla">
+        <a href="https://github.com/ThaisDavilla" target="_blank">
           <S.Icons src={GitHub} alt="Ícone do GitHub" />
         </a>
-        <a href="https://www.instagram.com/athaisdavilla/">
+        <a href="https://www.instagram.com/athaisdavilla/" target="_blank">
           <S.Icons src={Insta} alt="Ícone do Instagram" />
         </a>
-        <a href="https://www.linkedin.com/in/thaisdavilla01/">
+        <a href="https://www.linkedin.com/in/thaisdavilla01/" target="_blank">
           <S.Icons src={In} alt="Ícone do Linkedin" />
         </a>
       </S.BoxIcons>

@@ -43,9 +43,7 @@ export const BoxIcons = styled.div`
   }
 `
 export const Icons = styled.img`
-width:4vw;
 height:4vh;
 @media screen and (min-width: 360px) and (max-width: 800px) {
-  width:5vw;
   height:3vh;
 }`
