@@ -14,7 +14,7 @@ export const Body = styled.body`
 export const Hone = styled.h1`
 width: 60vw;
 font-size: 2.5em;
-margin:  auto;
+margin: 0 auto;
 display: flex;
 justify-content: center;
 font-family:'Nanum Gótico', sans-serif;
@@ -25,7 +25,7 @@ color: #52796f;
   font-size: 1.5em;
 `
 export const Htwo = styled.h2`
-width: 93vw;
+width: 90vw;
 font-size: 1.5em;
 margin: 2vh auto;
 display: flex;

@@ -21,40 +21,40 @@ export const Hone = styled.h1`
   color: #52796f;
   @media screen and (min-width: 360px) and (max-width: 800px) {
     width: 80vw;
+    height: 5vh;
     font-size: 1.5em;
   }`
 
 export const DivOne = styled.div`
-  width:95vw;
+  width:75vw;
   height:30vh;
   display:flex;
-  justify-content:space-around;
+  justify-content:space-evenly;
   margin:2vh auto;
-  @media screen and (min-width: 360px) and (max-width: 800px) {
+    @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
   height:30vh;
-  margin:0 auto;
+  margin:1px auto;
   
   }`
 
 export const DivTwo = styled.div`
-width:95vw;
+width:75vw;
 height:30vh;
 display:flex;
-justify-content:space-around;
+justify-content:space-evenly;
 margin:2vh auto;
 @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
-  height:40vh;
-  margin: 0 auto;
-  
-  }`
+  height:38vh;
+  margin:2px auto;
+ }`
 
 export const DivThree = styled.div`
-width:95vw;
+width:75vw;
 height:45vh;
 display:flex;
-justify-content:space-around;
+justify-content:space-evenly;
 margin:2vh auto;
 @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
@@ -64,10 +64,10 @@ margin:2vh auto;
   }`
 
 export const DivFour = styled.div`
-width:95vw;
+width:75vw;
 height:30vh;
 display:flex;
-justify-content:space-around;
+justify-content:space-evenly;
 margin:2vh auto;
 @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
@@ -90,15 +90,16 @@ margin:0 auto;
   }`
 
 export const Paragraph = styled.p`
-  width:30vw;
-  height:45vh;
-  font-size:1.3em;
+  width:40vw;
+  font-size:1.45em;
   font-family:'PT Sans', sans-serif;
   color:#2f3e46;
-  @media screen and (min-width: 360px) and (max-width: 800px) {
+    @media screen and (min-width: 360px) and (max-width: 800px) {
     width:80%;
+    font-size:1.3em;
+    
   }`
-  
+
 
 export const ParagraphLast = styled.p`
   width:50vw;
@@ -117,5 +118,5 @@ export const Img = styled.img`
   @media screen and (min-width: 360px) and (max-width: 800px) {
    display:none;
   }`
-  
+
 
