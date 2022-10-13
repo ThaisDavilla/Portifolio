@@ -13,7 +13,7 @@ export const Body = styled.body`
 export const Hone = styled.h1`
   width: 60vw;
   font-size: 2.5em;
-  margin: 0 auto;
+  margin: 1vh auto;
   display: flex;
   justify-content: center;
   font-family:'Nanum Gótico', sans-serif;
