@@ -12,12 +12,11 @@ export const Header = styled.header`
   height: 8vh;
   background-color:#f1faee;
   margin:0 auto;
-  
-  @media screen and (min-width: 360px) and (max-width: 700px) {
+    @media screen and (min-width: 360px) and (max-width: 700px) {
     width: 98%
   }`;
 
-  export const Nav = styled.nav`
+export const Nav = styled.nav`
   display: flex;
   flex-direction: ;
   width: 50vw;
@@ -49,7 +48,7 @@ export const Link = styled.a`
   text-decoration: none;
   }`;
 
-  export const Li = styled.li`
+export const Li = styled.li`
   list-style: none;
   text-decoration: none;
   font-size:1.5em;

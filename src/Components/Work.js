@@ -6,16 +6,19 @@ import PictureTwo from "../Images/portFlow.jpg";
 import PictureTree from "../Images/bio.jpg";
 import PictureFour from "../Images/blog.jpg";
 import PictureFive from "../Images/ada.jpg";
+import PictureSix from "../Images/ods.jpg";
+import PictureSeven from "../Images/rick-and-morty.jpg";
+import PictureEight from "../Images/adocao.jpg";
 
 export default function Work() {
   return (
     <S.Body>
       <header>
         <S.Hone>FrontEnd Development</S.Hone>
-        <S.Htwo>Habilidades Técnicas</S.Htwo>
-        <S.Htree>HTML 5, CSS 3, Responsividade, JavaScripit, DOM, React, State, Styled Components,
+        <S.Htwo>Conheça um pouco do meu trabalho</S.Htwo>
+        {/*<S.Htree>HTML 5, CSS 3, Responsividade, JavaScripit, DOM, React, State, Styled Components,
           Props, Hooks, Rest API.
-        </S.Htree>
+  </S.Htree>*/}
       </header>
       <S.Main>
         <S.Div>
@@ -53,6 +56,30 @@ export default function Work() {
         </S.Div>
         <S.Div>
           <S.Img src={PictureFive} alt="Imagem da página da Ada Lovelace." />
+          <h3>Site Ada Lovelace</h3>
+          <p>Fiz esta página num curso introdutório de programação.
+            Além do HTML e do CSS tem um pouco de JavaScripit para interação do usuário.
+          </p>
+          <a href="" target="_blank">Clique aqui e conheça a página!</a>
+        </S.Div>
+        <S.Div>
+          <S.Img src={PictureSix} alt="Imagem da página da Ada Lovelace." />
+          <h3>Site Ada Lovelace</h3>
+          <p>Fiz esta página num curso introdutório de programação.
+            Além do HTML e do CSS tem um pouco de JavaScripit para interação do usuário.
+          </p>
+          <a href="" target="_blank">Clique aqui e conheça a página!</a>
+        </S.Div>
+        <S.Div>
+          <S.Img src={PictureSeven} alt="Imagem da página da Ada Lovelace." />
+          <h3>Site Ada Lovelace</h3>
+          <p>Fiz esta página num curso introdutório de programação.
+            Além do HTML e do CSS tem um pouco de JavaScripit para interação do usuário.
+          </p>
+          <a href="" target="_blank">Clique aqui e conheça a página!</a>
+        </S.Div>
+        <S.Div>
+        <S.Img src={PictureEight} alt="Imagem da página da Ada Lovelace." />
           <h3>Site Ada Lovelace</h3>
           <p>Fiz esta página num curso introdutório de programação.
             Além do HTML e do CSS tem um pouco de JavaScripit para interação do usuário.
