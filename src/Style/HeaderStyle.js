@@ -18,7 +18,6 @@ export const Header = styled.header`
 
 export const Nav = styled.nav`
   display: flex;
-  flex-direction: ;
   width: 50vw;
   margin: 0 auto;
   
@@ -43,7 +42,6 @@ export const Ul = styled.ul`
   }
 `;
 
-
 export const Link = styled.a`
   text-decoration: none;
   }`;
@@ -54,6 +52,11 @@ export const Li = styled.li`
   font-size:1.5em;
   font-family:'Nanum Gótico', sans-serif;
   color: #52796f;
+  transition: 1s all;
+  &: hover{
+    cursor:pointer;
+    text-shadow: 1px 1px 2px #0d1b2a;
+}
   @media only screen and (min-width: 360px) and (max-width: 800px) {
     font-size:1em;
 }`

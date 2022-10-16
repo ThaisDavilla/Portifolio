@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle, keyframes } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 *{
@@ -10,7 +10,6 @@ export const GlobalStyle = createGlobalStyle`
 export const Body = styled.body`
   background-color: #f1faee;
 `
-
 export const Hone = styled.h1`
 width: 60vw;
 font-size: 2.5em;
@@ -31,7 +30,9 @@ margin: 2vh auto;
 display: flex;
 justify-content: center;
 font-family:'Nanum Gótico', sans-serif;
-color: #52796f;
+color:#70a9a1;
+
+
 @media screen and (min-width: 360px) and (max-width: 800px) {
   width: 90vw;
   margin:2vh auto;
@@ -49,27 +50,28 @@ export const Main = styled.main`
   border:;
   @media screen and (min-width: 360px) and (max-width: 800px){
     width:95vw;
-  height:100%;
   margin: 2vh auto;
   }
 `
 export const Div = styled.div`
   width:30vw;
-  height:55vh;
-  margin:1.2vh;
+  height:100%;
+  margin:3vh;
   display:flex;
   align-intens:center;
   justify-content:center;
   flex-wrap: wrap;
+  box-shadow: 4px 6px 5px  4px #40798c;
+  background:#83c5be;
+  border: solid 2px;
+  transition: 1s all;
+  &: hover{
+    transform: scale(1.1);
+    background: #e0e1dd;
+    cursor:pointer;}
   @media screen and (min-width: 360px) and (max-width: 800px){
   width:90vw;
-  height:55vh;
-  margin:1vh;
-  display:flex;
-  align-intens:center;
-  justify-content:center;
-  flex-wrap: wrap;
-  
+  margin:2vh;
   }
 `
 export const Img = styled.img`
@@ -82,14 +84,16 @@ height:30vh;
 }
 `
 export const Htree = styled.h3`
-font-size:1em;
+font-size:1.2em;
+margin:1vh auto;
+color:#003049;
 @media screen and (min-width: 360px) and (max-width: 800px){
-
+  font-size:1.1em;
 }
 `
 export const Paragraph = styled.p`
 font-size:1em;
-width:50vh;
+width:60vh;
 margin:1vh auto;
 @media screen and (min-width: 360px) and (max-width: 800px){
   font-size:1em;
