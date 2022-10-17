@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
-import Front from "../Images/frontEnd.png";
+
 
 export const GlobalStyle = createGlobalStyle`
 *{
@@ -7,13 +7,14 @@ export const GlobalStyle = createGlobalStyle`
   padding:0;
   box-sizing:border-box;
   background-color:#f1faee;
+  
 }
 `
 export const Body = styled.body`
   `
 export const Hone = styled.h1`
   width: 80vw;
-  font-size: 3em;
+  font-size: 2em;
   height: 10vh;
   margin: 0 auto;
   display: flex;
@@ -21,10 +22,11 @@ export const Hone = styled.h1`
   justify-content: center;
   font-family:'Nanum Gótico', sans-serif;
   color: #52796f;
+  text-transform: uppercase;
   @media screen and (min-width: 360px) and (max-width: 800px) {
     width: 80vw;
     height: 5vh;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }`
 
 export const DivOne = styled.div`
@@ -34,11 +36,10 @@ export const DivOne = styled.div`
   align-items:center;
   justify-content:space-evenly;
   margin:2vh auto;
-    @media screen and (min-width: 360px) and (max-width: 800px) {
+  @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
-  height:47vh;
-  margin:2vh auto;
-  
+  height:52vh;
+  margin:1.5vh auto;
   }`
 
 export const DivTwo = styled.div`
@@ -50,8 +51,8 @@ justify-content:space-evenly;
 margin:2vh auto;
   @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
-  height:51vh;
-  margin:0 auto;
+  height:57vh;
+  margin:0.5vh auto;
   }`
 
 export const DivThree = styled.div`
@@ -63,8 +64,8 @@ justify-content:space-evenly;
 margin:0vh auto;
   @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
-  height:25vh;
-  margin:0 auto;
+  height:32vh;
+  margin:0.5vh auto;
   }`
 
 export const DivFour = styled.div`
@@ -76,7 +77,7 @@ justify-content:space-evenly;
 margin:2vh auto;
  @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
-  height:20vh;
+  height:22vh;
   margin:0 auto;
   }`
 

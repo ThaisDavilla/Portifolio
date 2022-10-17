@@ -18,6 +18,8 @@ export const Hone = styled.h1`
   justify-content: center;
   font-family:'Nanum Gótico', sans-serif;
   color: #52796f;
+  text-transform: uppercase;
+
   @media screen and (min-width: 360px) and (max-width: 800px) {
     width: 60vw;
     margin:1vh auto;
@@ -37,9 +39,10 @@ export const BoxIcons = styled.div`
   align-itens: flex-center;
   @media screen and (min-width: 360px) and (max-width: 800px) {
     width:30vw;
-    height:12vh;
+    height:10vh;
+    margin: 1.5vh auto;
     display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   }
 `
 export const Icons = styled.img`

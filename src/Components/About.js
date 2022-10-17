@@ -9,7 +9,7 @@ export default function About() {
   return (
     <S.Body>
       <S.GlobalStyle />
-      <S.Hone>About Me</S.Hone>
+      <S.Hone>Um pouco sobre mim</S.Hone>
       <section>
         <S.DivOne>
           <S.Paragraph>Desde março de 2022, através do curso técnico Vai na Web aprendi
@@ -22,7 +22,7 @@ export default function About() {
         </S.DivOne>
         <S.DivTwo>
           <S.Img src={Books} alt="Imagem de uma mulher sentada em cima de vários livros e com um livro aberto na mão." />
-          <S.Paragraph>No momento, além dos cursos e mini ciursos de frontend, estou cursando o
+          <S.Paragraph>No momento, além dos cursos e mini cursos de frontend, estou cursando o
             primeiro semestre de Engenharia da
             Computação pela Universidade Virtual do Estado de São Paulo.
             Paralelo a faculdade estou estudando Inglês através da IfSul e pelo
@@ -40,8 +40,8 @@ export default function About() {
 
         <S.DivFour>
           <S.Img src={Talk} alt="Imagem de livros, um diploma e um capelo." />
-          <S.Paragraph>Estou a disposição caso queira me conhecer melhor!
-            Vamos bater um papo? Vou adorar! Meu e-mail é thaisdavilla@yahoo.com.br
+          <S.Paragraph>Estou a disposição caso queira me conhecer melhor,
+            vamos bater um papo? Vou adorar! Meu e-mail é thaisdavilla@yahoo.com.br
           </S.Paragraph>
 
         </S.DivFour>

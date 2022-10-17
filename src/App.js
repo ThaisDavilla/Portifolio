@@ -6,8 +6,6 @@ import About from "./Components/About";
 import Work from "./Components/Work";
 
 
-
-
 export default function App() {
   return (
     <><Router>
@@ -27,7 +25,6 @@ export default function App() {
           </S.Ul>
         </S.Nav>
       </S.Header>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
