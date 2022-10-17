@@ -13,7 +13,7 @@ export const Body = styled.body`
 export const Hone = styled.h1`
   width: 60vw;
   font-size: 2.5em;
-  margin: 1vh auto;
+  margin: 0.5vh auto;
   display: flex;
   justify-content: center;
   font-family:'Nanum Gótico', sans-serif;
@@ -30,8 +30,8 @@ export const ImgProfile = styled.img`
   `
 export const BoxIcons = styled.div`
   width:15vw;
-  height:10vh;
-  margin: 1.6vh auto;
+  height:100%;
+  margin: 1vh auto;
   display: flex;
   justify-content: space-evenly;
   align-itens: flex-center;

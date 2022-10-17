@@ -1,14 +1,15 @@
 import styled, { createGlobalStyle } from "styled-components";
+import Front from "../Images/frontEnd.png";
 
 export const GlobalStyle = createGlobalStyle`
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
+  background-color:#f1faee;
 }
 `
 export const Body = styled.body`
-  background-color: #f1faee;
   `
 export const Hone = styled.h1`
   width: 80vw;
@@ -36,7 +37,8 @@ export const DivOne = styled.div`
     @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
   height:47vh;
-  margin:0 auto;
+  margin:2vh auto;
+  
   }`
 
 export const DivTwo = styled.div`
@@ -96,7 +98,7 @@ export const Paragraph = styled.p`
 export const Img = styled.img`
   height:35vh;
   @media screen and (min-width: 360px) and (max-width: 800px) {
-   display:none;
+    display:none;
 }`
 
 

@@ -5,12 +5,12 @@ export const GlobalStyle = createGlobalStyle`
   margin:0;
   padding:0;
   box-sizing:border-box;
- }`;
+  background-color:#f1faee;
+  }`;
 export const Header = styled.header`
   display: flex;
-  width: 98.7vw;
-  height: 8vh;
-  background-color:#f1faee;
+  width: 98vw;
+  height:8vh;
   margin:0 auto;
     @media screen and (min-width: 360px) and (max-width: 700px) {
     width: 98%
@@ -19,7 +19,7 @@ export const Header = styled.header`
 export const Nav = styled.nav`
   display: flex;
   width: 50vw;
-  margin: 0 auto;
+  margin: 1vh auto;
   
   @media screen and (min-width: 360px) and (max-width: 800px) {
     display: flex;
@@ -35,6 +35,7 @@ export const Ul = styled.ul`
   align-items: center;
   list-style: none;
   width: 60vw;
+  height: 100%;
   @media only screen and (min-width: 360px) and (max-width: 800px) {
     display: flex;
     width: 100%;
@@ -47,7 +48,7 @@ export const Link = styled.a`
   }`;
 
 export const Li = styled.li`
-  list-style: none;
+list-style: none;
   text-decoration: none;
   font-size:1.5em;
   font-family:'Nanum Gótico', sans-serif;
@@ -56,7 +57,21 @@ export const Li = styled.li`
   &: hover{
     cursor:pointer;
     text-shadow: 1px 1px 2px #0d1b2a;
+    color:#14213d;
 }
   @media only screen and (min-width: 360px) and (max-width: 800px) {
     font-size:1em;
+}`
+export const Footer = styled.footer`
+color:#b8c0ff;
+width: 90vw;
+ height: 5vh;
+font-size:14px;
+margin:0 auto;
+display:flex;
+justify-content: space-between;
+align-items: center;
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+  width: 90%;
+  font-size:12px;
 }`

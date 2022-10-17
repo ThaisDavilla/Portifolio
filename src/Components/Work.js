@@ -27,13 +27,13 @@ export default function Work() {
           <S.Ancora href="https://thaisdavilla.github.io/leagueOfLegend/" target="_blank">Conheça a página!</S.Ancora>
         </S.Div>
         <S.Div>
-          <S.Htree>Beat, no compaço da batida</S.Htree>
+          <S.Htree>Beat</S.Htree>
           <S.Img src={PictureOne} alt="Imagem da página Beat, no compaço da batida" />
           <S.Paragraph>Desing reproduzido do figma, visando a estruturação e estilização aplicando Flex-Box.</S.Paragraph>
           <S.Ancora href="https://thaisdavilla.github.io/beat/" target="_blank">Conheça a página!</S.Ancora>
         </S.Div>
         <S.Div>
-          <S.Htree>PortiFlow - Imagine, Discuta, Desenhe.</S.Htree>
+          <S.Htree>PortiFlow</S.Htree>
           <S.Img src={PictureTwo} alt="Imagem da página PortFlow" />
           <S.Paragraph>
             Reprodução do Figma aplicando recursos aprendidos do HTML5, CSS3, semântica
@@ -42,15 +42,15 @@ export default function Work() {
           <S.Ancora href="https://thaisdavilla.github.io/portFlow/" target="_blank">Conheça a página!</S.Ancora>
         </S.Div>
         <S.Div>
-          <S.Htree>Little Contact bio</S.Htree>
+          <S.Htree>Contato</S.Htree>
           <S.Img src={PictureTree} alt="Imagem da Bio." />
-          <S.Paragraph>Fiz essa página para deixar o link como Bio nas minhas redes sociais.
+          <S.Paragraph>Fiz essa página para deixar o link de contato na bio nas minhas redes sociais.
             Foi um trabalho divertido de fazer em um mini curso para prática de HTML e CSS.
           </S.Paragraph>
           <S.Ancora href="https://thaisdavilla.github.io/bioDevFrontEnd/" target="_blank">Conheça a página!</S.Ancora>
         </S.Div>
         <S.Div>
-          <S.Htree>Litlle Blog Thais D'Ávilla </S.Htree>
+          <S.Htree>Blog Thais D'Ávilla </S.Htree>
           <S.Img src={PictureFour} alt="Imagem do Blog." />
           <S.Paragraph>Este foi meu primeiro contato prático com códigos.
             Esta página foi desenvolvida em uma oficina de 8h de um sábado.
@@ -59,7 +59,7 @@ export default function Work() {
           <S.Ancora href="https://thaisdavilla.github.io/litlleBlogThaisDavilla/" target="_blank">Conheça a página!</S.Ancora>
         </S.Div>
         <S.Div>
-          <S.Htree>Site Ada Lovelace</S.Htree>
+          <S.Htree>Ada Lovelace</S.Htree>
           <S.Img src={PictureFive} alt="Imagem da página da Ada Lovelace." />
           <S.Paragraph>Esta página foi desenvolvida em um curso introdutório de programação.
             Além do HTML e do CSS também JavaScripit para interação do usuário nos campos de formulário.
