@@ -7,11 +7,12 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing:border-box;
   background-color:#f1faee;
   
+  
   }`;
 export const Header = styled.header`
   display: flex;
   width: 98vw;
-  height:8vh;
+  height:10vh;
   margin:0 auto;
   text-transform: uppercase;
     @media screen and (min-width: 360px) and (max-width: 700px) {
@@ -70,14 +71,14 @@ width: 90vw;
  height: 5vh;
  text-transform: uppercase;
 font-size:14px;
-margin:0 auto;
+margin:2vh auto;
 display:flex;
 justify-content: space-between;
 align-items: center;
 @media only screen and (min-width: 360px) and (max-width: 800px) {
-  width: 90%;
+  width: 95%;
   font-size:12px;
-  margin:0 auto;
-  justify-content: space-evenly;
-  height: 100%;
+  margin:2vh auto;
+  justify-content: space-around;
+  height: 6vh;
   }`

@@ -26,21 +26,20 @@ export const Hone = styled.h1`
     font-size: 1.5em;
   }`
 export const ImgProfile = styled.img`
-  width:100vw;
-  height:68vh;
+  width:100%;
+  height:65vh;
   object-fit:cover;
   `
 export const BoxIcons = styled.div`
   width:15vw;
   height:100%;
-  margin: 1vh auto;
+  margin: 1.5vh auto;
   display: flex;
   justify-content: space-evenly;
   align-itens: flex-center;
   @media screen and (min-width: 360px) and (max-width: 800px) {
     width:30vw;
-    height:10vh;
-    margin: 1.5vh auto;
+    height:5vh;
     display: flex;
   justify-content: space-evenly;
   }

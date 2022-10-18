@@ -7,10 +7,9 @@ export const GlobalStyle = createGlobalStyle`
   padding:0;
   box-sizing:border-box;
   background-color:#f1faee;
+  }`
   
-}
-`
-export const Body = styled.body`
+  export const Body = styled.body`
   `
 export const Hone = styled.h1`
   width: 80vw;
@@ -38,8 +37,9 @@ export const DivOne = styled.div`
   margin:2vh auto;
   @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
-  height:52vh;
+  height:100%;
   margin:1.5vh auto;
+  flex-direction:column;
   }`
 
 export const DivTwo = styled.div`
@@ -51,8 +51,9 @@ justify-content:space-evenly;
 margin:2vh auto;
   @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
-  height:57vh;
+  height:100%;
   margin:0.5vh auto;
+  flex-direction:column-reverse;
   }`
 
 export const DivThree = styled.div`
@@ -64,8 +65,9 @@ justify-content:space-evenly;
 margin:0vh auto;
   @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
-  height:32vh;
+  height:100%;
   margin:0.5vh auto;
+  flex-direction:column;
   }`
 
 export const DivFour = styled.div`
@@ -77,8 +79,9 @@ justify-content:space-evenly;
 margin:2vh auto;
  @media screen and (min-width: 360px) and (max-width: 800px) {
   width:98vw;
-  height:22vh;
+  height:100%;
   margin:0 auto;
+  flex-direction:column-reverse;
   }`
 
 
@@ -99,7 +102,8 @@ export const Paragraph = styled.p`
 export const Img = styled.img`
   height:35vh;
   @media screen and (min-width: 360px) and (max-width: 800px) {
-    display:none;
+    display:;
+    height:15vh;
 }`
 
 

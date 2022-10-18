@@ -69,7 +69,7 @@ export const Div = styled.div`
   }
   @media screen and (min-width: 360px) and (max-width: 800px){
   width:90vw;
-  height:45vh;
+  height:48vh;
   margin:2vh;
   }`
 

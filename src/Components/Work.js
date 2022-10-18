@@ -62,7 +62,7 @@ export default function Work() {
           <S.Htree>Ada Lovelace</S.Htree>
           <S.Img src={PictureFive} alt="Imagem da página da Ada Lovelace." />
           <S.Paragraph>Esta página foi desenvolvida em um curso introdutório de programação.
-            Além do HTML e do CSS também JavaScripit para interação do usuário nos campos de formulário.
+            Além do HTML e do CSS também usei JavaScripit para interação do usuário nos campos de formulário.
           </S.Paragraph>
           <S.Ancora href="https://thaisdavilla.github.io/siteAdaLovelace/" target="_blank">Conheça a página!</S.Ancora>
         </S.Div>

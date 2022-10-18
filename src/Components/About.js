@@ -13,7 +13,7 @@ export default function About() {
       <section>
         <S.DivOne>
           <S.Paragraph>Desde março de 2022, através do curso técnico Vai na Web aprendi
-            os conceitos básicos de FrontEnd, aprimorando os conhecimentos e
+            os conceitos básicos de frontend, aprimorando os conhecimentos e
             aprendizados também com outras plataformas e escolas, nas quais
             os conceitos de softskills são tão difundidos, aprofundados e
             apreciados como as hardskills.
@@ -40,8 +40,8 @@ export default function About() {
 
         <S.DivFour>
           <S.Img src={Talk} alt="Imagem de livros, um diploma e um capelo." />
-          <S.Paragraph>Estou a disposição caso queira me conhecer melhor,
-            vamos bater um papo? Vou adorar! Meu e-mail é thaisdavilla@yahoo.com.br
+          <S.Paragraph>Se quiser conversar é só me chamar! 
+            Meu e-mail é thaisdavilla@yahoo.com.br
           </S.Paragraph>
 
         </S.DivFour>
