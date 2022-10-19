@@ -102,7 +102,7 @@ export const Paragraph = styled.p`
 export const Img = styled.img`
   height:35vh;
   @media screen and (min-width: 360px) and (max-width: 800px) {
-    display:;
+    margin:2vh;
     height:15vh;
 }`
 

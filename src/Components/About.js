@@ -31,7 +31,7 @@ export default function About() {
           </S.Paragraph>
         </S.DivTwo>
         <S.DivThree>
-          <S.Paragraph>Sou organizada, proativa, muito comunicativa, acolhedora e boa ouvinte.
+          <S.Paragraph>Sou organizada, proativa, comunicativa, acolhedora e boa ouvinte.
             Gosto muito de fazer amizades, de ver um bom filme, ler livros, ouvir
             música boa, passear, viajar e comer.
           </S.Paragraph>
