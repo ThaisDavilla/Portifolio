@@ -14,7 +14,7 @@ export default function Work() {
   return (
     <S.Body>
       <header>
-        <S.Hone>FrontEnd Development</S.Hone>
+        <S.Hone>Front End Developer</S.Hone>
         
         <S.Htwo>HTML 5 | CSS 3 | JavaScripit | DOM | React JS | Rest API | Git | GitHub</S.Htwo>
       </header>
