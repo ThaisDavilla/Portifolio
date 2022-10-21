@@ -56,7 +56,7 @@ export default function Work() {
             Esta página foi desenvolvida em uma oficina de 8h de um sábado.
             Foi neste dia que me apaixonei pelo FrontEnd.
           </S.Paragraph>
-          <S.Ancora href="https://thaisdavilla.github.io/litlleBlogThaisDavilla/" target="_blank">Conheça a página!</S.Ancora>
+          <S.Ancora href="https://thaisdavilla.github.io/blogThaisDavilla/" target="_blank">Conheça a página!</S.Ancora>
         </S.Div>
         <S.Div>
           <S.Htree>Ada Lovelace</S.Htree>
