@@ -7,7 +7,9 @@ export const GlobalStyle = createGlobalStyle`
 }
 `
 export const Body = styled.body`
-  background-color: #f1faee;
+background-color: #f1faee;
+margin:10vh auto;
+
 `
 
 export const Hone = styled.h1`
@@ -29,7 +31,7 @@ export const ImgProfile = styled.img`
   width:100%;
   height:65vh;
   object-fit:cover;
-  `
+`
 export const BoxIcons = styled.div`
   width:15vw;
   height:100%;

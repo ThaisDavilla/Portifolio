@@ -9,13 +9,12 @@ export const GlobalStyle = createGlobalStyle`
   background-color:#f1faee;
   }`
   
-  export const Body = styled.body`
-  `
+  
 export const Hone = styled.h1`
   width: 80vw;
   font-size: 2em;
   height: 10vh;
-  margin: 0 auto;
+  margin: 7vh auto;
   display: flex;
   align-items:end;
   justify-content: center;
@@ -25,7 +24,18 @@ export const Hone = styled.h1`
   @media screen and (min-width: 360px) and (max-width: 800px) {
     width: 80vw;
     height: 5vh;
+    margin: 8vh auto;
     font-size: 1.2em;
+  }`
+  export const Section = styled.section`
+  width:80%;
+  height:100%;
+  margin:-4vh auto;
+  @media screen and (min-width: 360px) and (max-width: 800px) {
+    width:98%;
+    
+    
+  
   }`
 
 export const DivOne = styled.div`
@@ -36,7 +46,7 @@ export const DivOne = styled.div`
   justify-content:space-evenly;
   margin:2vh auto;
   @media screen and (min-width: 360px) and (max-width: 800px) {
-  width:98vw;
+  width:92vw;
   height:100%;
   margin:1.5vh auto;
   flex-direction:column;
@@ -50,7 +60,7 @@ align-items:center;
 justify-content:space-evenly;
 margin:2vh auto;
   @media screen and (min-width: 360px) and (max-width: 800px) {
-  width:98vw;
+  width:92vw;
   height:100%;
   margin:0.5vh auto;
   flex-direction:column-reverse;
@@ -64,7 +74,7 @@ align-items:center;
 justify-content:space-evenly;
 margin:0vh auto;
   @media screen and (min-width: 360px) and (max-width: 800px) {
-  width:98vw;
+  width:92vw;
   height:100%;
   margin:0.5vh auto;
   flex-direction:column;
@@ -78,7 +88,7 @@ align-items:center;
 justify-content:space-evenly;
 margin:2vh auto;
  @media screen and (min-width: 360px) and (max-width: 800px) {
-  width:98vw;
+  width:92vw;
   height:100%;
   margin:0 auto;
   flex-direction:column-reverse;
@@ -103,7 +113,7 @@ export const Img = styled.img`
   height:35vh;
   @media screen and (min-width: 360px) and (max-width: 800px) {
     margin:2vh;
-    height:15vh;
+    height:18vh;
 }`
 
 

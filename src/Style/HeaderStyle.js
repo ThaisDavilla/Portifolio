@@ -6,23 +6,25 @@ export const GlobalStyle = createGlobalStyle`
   padding:0;
   box-sizing:border-box;
   background-color:#f1faee;
-  
-  
-  }`;
+ }`
+
 export const Header = styled.header`
-  display: flex;
-  width: 98vw;
-  height:10vh;
-  margin:0 auto;
+display: flex;
+  width: 100%;
+  height:8vh;
+  position:fixed;
+  left:0;
+  top:0;
   text-transform: uppercase;
     @media screen and (min-width: 360px) and (max-width: 700px) {
-    width: 98%
+    width: 99%
   }`;
 
 export const Nav = styled.nav`
   display: flex;
   width: 50vw;
   margin: 1vh auto;
+  
   
   @media screen and (min-width: 360px) and (max-width: 800px) {
     display: flex;
@@ -51,7 +53,7 @@ export const Link = styled.a`
   }`;
 
 export const Li = styled.li`
-list-style: none;
+  list-style: none;
   text-decoration: none;
   font-size:1.5em;
   font-family:'Nanum Gótico', sans-serif;
@@ -68,13 +70,14 @@ list-style: none;
 export const Footer = styled.footer`
 color:#b8c0ff;
 width: 90vw;
- height: 5vh;
+ height: 100%;
  text-transform: uppercase;
 font-size:14px;
-margin:2vh auto;
+margin:0 auto;
 display:flex;
 justify-content: space-between;
 align-items: center;
+
 @media only screen and (min-width: 360px) and (max-width: 800px) {
   width: 95%;
   font-size:12px;

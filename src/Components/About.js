@@ -7,10 +7,10 @@ import * as S from "../Style/AboutStyle";
 
 export default function About() {
   return (
-    <S.Body>
+    <body>
       <S.GlobalStyle />
       <S.Hone>Um pouco sobre mim</S.Hone>
-      <section>
+      <S.Section>
         <S.DivOne>
           <S.Paragraph>Desde março de 2022, através do curso técnico Vai na Web aprendi
             os conceitos básicos de frontend, aprimorando os conhecimentos e
@@ -40,13 +40,12 @@ export default function About() {
 
         <S.DivFour>
           <S.Img src={Talk} alt="Imagem de livros, um diploma e um capelo." />
-          <S.Paragraph>Se quiser conversar é só me chamar! 
+          <S.Paragraph>Se quiser conversar é só me chamar!
             Meu e-mail é thaisdavilla@yahoo.com.br
           </S.Paragraph>
-
         </S.DivFour>
 
-      </section>
-    </S.Body>
+      </S.Section>
+    </body>
   )
 }
