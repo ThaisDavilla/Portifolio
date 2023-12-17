@@ -17,7 +17,7 @@ export default function Home() {
         <a href="https://www.instagram.com/athaisdavilla/" target="_blank">
           <S.Icons src={Insta} alt="Ícone do Instagram" />
         </a>
-        <a href="https://www.linkedin.com/in/thaisdavilla01/" target="_blank">
+        <a href="https://www.linkedin.com/in/thaisdavilla/" target="_blank">
           <S.Icons src={In} alt="Ícone do Linkedin" />
         </a>
       </S.BoxIcons>
